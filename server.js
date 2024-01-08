@@ -39,10 +39,14 @@ const saltRounds = 10;
 
 // Подключение к MySQL
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'fitnessacademytest'
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // database: 'fitnessacademytest'
+    host: '178.250.159.22',
+    user: 'gymsys_inexb',
+    password: 'WrxeEXhziGLAI1Dd',
+    database: 'gymsys_inexb'
 });
 
 db.connect((err) => {
